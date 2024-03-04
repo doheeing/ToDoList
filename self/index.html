@@ -10,36 +10,30 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/0e81557aa3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0e81557aa3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1>오늘 할 일은?</h1>
-    <input type="text">
-    <button>check</button>
-    <button>delete</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="container">
+      <h1 class="mt-5">TO-DO list</h1>
+      <div class="input-area">
+        <input type="text" class="task-input"/>
+        <button class="button-add">+</button>
+      </div>
+      <section class="task-list-container">
+        <div class="tab-type">
+          <div id="all">모두</div>
+          <div id="ongoing">진행중</div>
+          <div id="done">완료</div>
+        </div>
+        <div class="task-board">
+        </div>
+      </section>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script

@@ -1,0 +1,59 @@
+body{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 800px;
+    border-top: 10px solid blanchedalmond;
+    border-bottom: 10px solid blanchedalmond;
+    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+.inout-area{
+    position: relative;
+}
+.task-list-container{
+    border: 1px solid lightgray;
+}
+.task-input {
+    transition: padding-top 0.2s ease, margin-top 0.2s ease;
+    width: 80%;
+    border: none;
+    border: 1px solid rgb(158, 213, 207);
+    margin: 20px;
+  }
+.tab-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(187, 234, 228);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.task-done{
+    text-decoration: line-through;
+}
+.task-done-task{
+    background-color: lightgray;
+}
+.tab-type div{
+    cursor: pointer;
+}
